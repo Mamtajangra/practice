@@ -6,4 +6,4 @@ def palindrome(n):
     else:
          return "no palindrome"
 #   to check via example   
-print(palindrome("racecar"))    
+print(palindrome("racecar"))
