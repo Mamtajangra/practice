@@ -3,9 +3,9 @@ def binary_search(arr,val_to_find):
     # low value 
     low = 0
     # high means the last index of array 
-    high = len(arr)
+    high = len(arr) -1
     # loop because we don't know how many steps are required 
-    while low < high:
+    while low <= high:
         # middle index is the half the sum of low and high value 
         mid_indx = (low + high)//2
         # check the conditions 
